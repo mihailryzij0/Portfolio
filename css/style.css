@@ -14,6 +14,7 @@ body {
 }
 .dark .circle circle {
     fill: #D40000;
+
 }
 .dark .triangle path {
     fill: #FFF;
@@ -1310,4 +1311,98 @@ form select {
     .section-form {
         padding-bottom: 57px;
     }
+}
+.ui-dialog{
+height: 60% !important;
+width: 96% !important;
+top: 0px !important;
+left: 0px !important;
+background-color: #232326;
+border-bottom: 1px solid #F3F2F0;
+}
+.ui-button{
+    visibility: inherit;
+}
+.dialog-nav{
+    text-align: center;
+    padding-left: 0;
+    margin-top: 50px;
+}
+.dialog-nav__item{
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+.dialog-nav__link{
+    color: #F3F2F0;
+    text-decoration: none;
+    font-size: 18px;
+    border-bottom: 1px solid rgb(129, 127, 123);
+
+
+}
+.ui-dialog .ui-dialog-content{
+    width: 94% !important;
+    overflow: inherit;
+}
+
+.ui-dialog-titlebar-close{
+    background-color: transparent;
+    background-image: url(../img/icons/close.svg);
+    background-repeat: no-repeat;
+    height: 42px !important;
+    width: 42px !important;
+    border: none;
+    background-size: 42px 42px;
+    top: inherit!important;
+    bottom: -40px;
+    background-repeat: no-repeat;
+    z-index: 3;
+    right: 17px !important;
+    outline: none;
+}
+.ui-dialog-titlebar-close:hover{
+    background-color: transparent;
+    background-image: url(../img/icons/close.svg);
+    background-repeat: no-repeat;
+    height: 42px !important;
+    width: 42px !important;
+    border: none;
+    background-size: 42px 42px;
+    top: inherit!important;
+    bottom: -40px;
+    z-index: 3;
+    outline: none;
+    
+
+}
+.ui-dialog-titlebar-close:focus{
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+.ui-button-icon-space{
+    display: none;
+}
+.dialog-circle{
+    fill: #D40000;
+    width: 120px;
+    height: 120px;
+    left: 16px;
+    position: absolute;
+    bottom: -78px;
+    z-index: -1;
+}
+.dialog-triangle{
+    fill: #FFF;
+    position: absolute;
+    bottom: -12px;
+    width: 29px;
+    left: 7px;
+
+}
+.dialog-tel{
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
 }
